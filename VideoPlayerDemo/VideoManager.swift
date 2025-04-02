@@ -37,7 +37,7 @@ class VideoManager : ObservableObject {
             }
             
             var urlRequest = URLRequest(url: url)
-            urlRequest.setValue("REDACTED", forHTTPHeaderField: "Authorization")
+            urlRequest.setValue(PEXELS_API_KEY, forHTTPHeaderField: "Authorization")
             
             let (data, response) = try await URLSession.shared.data(for: urlRequest)
             guard (response as? HTTPURLResponse)?.statusCode == 200
