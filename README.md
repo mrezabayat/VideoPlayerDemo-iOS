@@ -10,7 +10,16 @@ Video Player Demo is an iOS app built using **SwiftUI** and **AVPlayer**. It fet
 - Supports portrait and landscape mode.
 
 ## Screenshots
-*(Add screenshots of your app here)*
+
+<p align="center">
+  <img src="Screenshots/IMG_0001 2.PNG" width="45%">
+  <img src="Screenshots/IMG_0002 2.PNG" width="45%">
+</p>
+
+<p align="center">
+  <img src="Screenshots/IMG_0003 2.PNG" width="45%">
+  <img src="Screenshots/IMG_0004 2.PNG" width="45%">
+</p>
 
 ## Technologies Used
 - **SwiftUI** for UI components
